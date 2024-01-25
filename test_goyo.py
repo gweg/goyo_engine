@@ -17,7 +17,7 @@ pygame.display.set_caption("Exemple de Sprite avec Pygame")
 
 
 imageBank=ImagesBank()
-imageBank.AppendFromTilesImageFile("game-sprite-actions-walking-vector.jpg",24,84,224,376,6,1,0,0)
+imageBank.CaptureFromTilesImageFile("game-sprite-actions-walking-vector.jpg",24,84,224,376,6,1,0,0)
 
 while True:
     for event in pygame.event.get():

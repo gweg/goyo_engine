@@ -6,7 +6,7 @@ class ImagesBank():
         pass
     def appendFromFile():
         pass
-    def AppendFromTilesImageFile(self,tileImageFile,x_init,y_init,width,height,horizontal_count,vertical_count,space_step_x,space_step_y):
+    def CaptureFromTilesImageFile(self,tileImageFile,x_init,y_init,width,height,horizontal_count,vertical_count,space_step_x,space_step_y):
         try:
             tileImage = pygame.image.load(tileImageFile) 
         except Exception as ex:
